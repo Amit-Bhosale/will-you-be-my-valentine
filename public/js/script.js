@@ -6,7 +6,6 @@ const answers_no = {
         "Are you really realy sure???",
         "Think again?",
         "Don't believe in second chances?",
-        "Why are you being so cold?",
         "Maybe we can talk about it?",
         "I am not going to ask again!",
         "Ok now this is hurting my feelings!",
@@ -66,10 +65,13 @@ let size = 50;
 let clicks = 0;
 
 const no_images = [
-    "public/images/sunonasuno.gif",
     "public/images/no.gif",
-    "public/images/haulehaule.webp",
-    "public/images/broken-heart.gif"
+    "public/images/sunonasuno.gif",
+    "public/images/haulehaule.gif",
+    "public/images/broken-heart.gif",
+    "public/images/dagabaaz.gif",
+    "public/images/terevasste.jpeg",
+    "public/images/tainukhabar.gif",
 ];
 
 const sad_headings = [
@@ -80,10 +82,13 @@ const sad_headings = [
 ];
 
 const no_songs = [
-    "public/audio/no.mp3",
     "public/audio/zaalima.mp3",
+    "public/audio/no.mp3",
     "public/audio/haulehaule.mp3",
-    "public/audio/chaltechalte.mp3"
+    "public/audio/chaltechalte.mp3",
+    "public/audio/dagabaaz.mp3",
+    "public/audio/terevasste.mp3",
+    "public/audio/tainukhabar.mp3",
 ];
 
 no_button.addEventListener('click', () => {
@@ -173,7 +178,7 @@ yes_button.addEventListener('click', () => {
         refreshBanner();
         
         // Change heading
-        document.getElementById("question-heading").textContent = "Are you serioussswssswes ?!!!";
+        document.getElementById("question-heading").textContent = "Are you serioussswssswes ?!!! 😲😍💖";
         
         // Reset button size
         yes_button.style.height = "50px";
